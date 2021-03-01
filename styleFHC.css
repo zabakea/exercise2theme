@@ -1,0 +1,27 @@
+.wheelsStart {
+  animation: spin infinite 2s;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.carStart {
+  animation: drive infinite 4s;
+}
+
+@keyframes drive {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}
