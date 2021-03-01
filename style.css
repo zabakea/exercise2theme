@@ -1,0 +1,18 @@
+#firstRect {
+  stroke: red;
+
+  fill: transparent;
+  stroke-width: 3;
+  animation: jebote 2s ease-in infinite;
+}
+
+@keyframes jebote {
+  0% {
+    fill: teal;
+    transform: scale(20);
+  }
+  100% {
+    fill: tomato;
+    transform: scale(30);
+  }
+}
